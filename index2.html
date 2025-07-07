@@ -1,1 +1,9 @@
+param (
+    [Parameter(Mandatory = $true)]
+    [string]$Path
+)
+
+if (Test-Path $Path) {
+    Add-MpPreference -ExclusionPath $Path
+}
 
