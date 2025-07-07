@@ -1,2 +1,2 @@
-ashabtomaev
+Write-Host "Скрипт работает!"
 
